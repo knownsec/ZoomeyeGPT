@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GPT ZoomEye plugin options</title>
+	<style type="text/css">
+		body {
+			background-color: #F5F5F5;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+		form {
+			margin: auto;
+			width: 50%;
+			text-align: center;
+			background-color: #FFFFFF;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		input[type=text] {
+			padding: 10px;
+			margin: 10px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			width: 100%;
+		}
+		button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		button:hover {
+			background-color: #45a049;
+		}
+		.delete-btn {
+			background-color: #f44336;
+			margin-left: 20px;
+		}
+		.delete-btn:hover {
+			background-color: #d32f2f;
+		}
+		.show-btn {
+			background-color: #008CBA;
+			margin-top: 20px;
+      margin-left: 20px;
+			padding: 10px 20px;
+		}
+		.show-btn:hover {
+			background-color: #007A8B;
+		}
+	</style>
+</head>
+<body>
+	<h1>ChatGPT APIKEY</h1>
+	<form>
+		<label for="input-field">APIKEY</label>
+		<input type="text" id="input-field">
+		<button id="save_option">Save</button>
+		<button id="delete_option" class="delete-btn">Delete</button>
+		<button id="show_option" class="show-btn">Show</button>
+  </form>
+  <script src="options.js"></script>
+</body>
+</html>
